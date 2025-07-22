@@ -115,7 +115,7 @@ const API_SITES = {
         name: '量子资源站'
     },
     23: {
-        api: ':https://aosikazy.com/api.php/provide/vod/?ac=list',
+        api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
         name: 'Pro',
         adult: false
     },
