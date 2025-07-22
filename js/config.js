@@ -115,7 +115,7 @@ const API_SITES = {
         name: '量子资源站'
     },
     23: {
-        api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
+        api: 'https://aosikazy.com/api.php/provide/vod/',
         name: 'Pro',
         adult: false
     },
@@ -128,7 +128,7 @@ const API_SITES = {
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
      a1: {
-         api: 'https://aosikazy6.com/api.php/provide/vod/?ac=list',
+         api: 'https://aosikazy6.com/api.php/provide/vod/',
          name: '奧斯卡資源站',
          adult: true
      },
