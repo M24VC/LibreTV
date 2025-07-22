@@ -115,7 +115,7 @@ const API_SITES = {
         name: '量子资源站'
     },
     23: {
-        api: 'https://www.hongniuzy2.com/api.php/provide/vod/at/xml/',
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
         name: '紅牛资源站'
     },
 
