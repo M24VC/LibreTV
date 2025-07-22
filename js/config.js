@@ -22,99 +22,99 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    true: {
+    1: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com', 
     },
-    true: {
+    2: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
     },
-    true: {
+    3: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
     },
-    true: {
+    4: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    true: {
+    5: {
         api: 'https://zy.xmm.hk/api.php/provide/vod',
         name: '小猫咪资源',
     },
-    true: {
+    6: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    true: {
+    7: {
         api: 'https://json.heimuer.xyz/api.php/provide/vod',
         name: '黑木耳',
         detail: 'https://heimuer.tv', 
     },
-    true: {
+    8: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
-    true: {
+    9: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
     },
-    true: {
+    10: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    true: {
+    11: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
     },
-    true: {
+    12: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
         detail: 'https://jszyapi.com', 
     },
-    true: {
+    13: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源',
     },
-    true: {
+    14: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
     },
-    true: {
+    15: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
     },
-    true: {
+    16: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    true: {
+    17: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花资源'
     },
-    true: {
+    18: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度云资源'
     },
-    true: {
+    19: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源'
     },
-    true: {
+    20: {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
-    true: {
+    21: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    true: {
+    22: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    true: {
+    23: {
         api: 'http://api.vip123kan.vip/?url=',
         name: 'Pro',
         adult: false
@@ -127,8 +127,8 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-     false: {
-         api: 'https://aosikazy.com/api.php/provide/vod/?ac=list',
+     h1: {
+         api: 'https://aosikazy.com/api.php/provide/vod/',
          name: '奧斯卡資源站',
          adult: true
      },
