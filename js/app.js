@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // 默认选中过滤开关
         localStorage.setItem('yellowFilterEnabled', 'false');
-        localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'false');
+        localStorage.setItem(PLAYER_CONFIG.adFilteringStorage, 'true');
 
         // 默认启用豆瓣功能
         localStorage.setItem('doubanEnabled', 'true');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // 设置黄色内容过滤器开关初始状态
     const yellowFilterToggle = document.getElementById('yellowFilterToggle');
     if (yellowFilterToggle) {
-        yellowFilterToggle.checked = localStorage.getItem('yellowFilterEnabled') === 'false';
+        yellowFilterToggle.checked = localStorage.getItem('yellowFilterEnabled') === 'true';
     }
 
     // 设置广告过滤开关初始状态
